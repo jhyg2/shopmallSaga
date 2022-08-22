@@ -1,8 +1,7 @@
 package shopmallsaga.external;
 
-import java.util.Date;
 import lombok.Data;
-
+import java.util.Date;
 @Data
 public class Order {
 
@@ -10,6 +9,9 @@ public class Order {
     private Long productId;
     private Integer qty;
     private String productName;
+
     // keep
 
 }
+
+

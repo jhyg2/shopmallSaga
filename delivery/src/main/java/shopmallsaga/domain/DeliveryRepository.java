@@ -1,12 +1,10 @@
 package shopmallsaga.domain;
 
+import shopmallsaga.domain.*;
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
-import shopmallsaga.domain.*;
 
-@RepositoryRestResource(
-    collectionResourceRel = "deliveries",
-    path = "deliveries"
-)
-public interface DeliveryRepository
-    extends PagingAndSortingRepository<Delivery, Long> {}
+@RepositoryRestResource(collectionResourceRel="deliveries", path="deliveries")
+public interface DeliveryRepository extends PagingAndSortingRepository<Delivery, Long>{
+
+}

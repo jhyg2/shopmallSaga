@@ -1,9 +1,9 @@
 package shopmallsaga.domain;
 
-import java.util.*;
-import lombok.*;
 import shopmallsaga.domain.*;
 import shopmallsaga.infra.AbstractEvent;
+import java.util.*;
+import lombok.*;
 
 @Data
 @ToString
@@ -14,11 +14,10 @@ public class OrderPlaced extends AbstractEvent {
     private Integer qty;
     private String productName;
 
-    public OrderPlaced(Order aggregate) {
+    public OrderPlaced(Order aggregate){
         super(aggregate);
     }
-
-    public OrderPlaced() {
+    public OrderPlaced(){
         super();
     }
     // keep

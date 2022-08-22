@@ -1,9 +1,12 @@
 package shopmallsaga.common;
 
+
+import shopmallsaga.DeliveryApplication;
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
-import shopmallsaga.DeliveryApplication;
 
 @CucumberContextConfiguration
 @SpringBootTest(classes = { DeliveryApplication.class })
-public class CucumberSpingConfiguration {}
+public class CucumberSpingConfiguration {
+    
+}

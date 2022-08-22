@@ -1,9 +1,9 @@
 package shopmallsaga.domain;
 
-import java.util.*;
-import lombok.*;
 import shopmallsaga.domain.*;
 import shopmallsaga.infra.AbstractEvent;
+import java.util.*;
+import lombok.*;
 
 @Data
 @ToString
@@ -14,11 +14,10 @@ public class DeliveryStarted extends AbstractEvent {
     private Long productId;
     private String productName;
 
-    public DeliveryStarted(Delivery aggregate) {
+    public DeliveryStarted(Delivery aggregate){
         super(aggregate);
     }
-
-    public DeliveryStarted() {
+    public DeliveryStarted(){
         super();
     }
     // keep
