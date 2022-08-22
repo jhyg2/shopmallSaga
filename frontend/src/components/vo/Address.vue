@@ -107,6 +107,24 @@
             }else if(this.value.state.includes("제주")){
                 this.latitude = 33.364805;
                 this.longitude = 126.542671;
+            }else if(this.value.state.includes("서울")){
+                this.latitude = 37.487935;
+                this.longitude = 126.857758;
+            }else if(this.value.state.includes("인천")){
+                this.latitude = 37.45639;
+                this.longitude = 126.70528;
+            }else if(this.value.state.includes("대전")){
+                this.latitude = 36.35111;
+                this.longitude = 127.38500;
+            }else if(this.value.state.includes("대구")){
+                this.latitude = 35.87222;
+                this.longitude = 128.60250;
+            }else if(this.value.state.includes("부산")){
+                this.latitude = 35.17944;
+                this.longitude = 129.07556;
+            }else if(this.value.state.includes("광주")){
+                this.latitude = 35.15972;
+                this.longitude = 126.85306;
             }
         },
         watch: {
